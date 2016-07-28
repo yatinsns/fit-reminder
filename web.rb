@@ -14,6 +14,6 @@ MESSAGES = ["Why kill time when you can make it work for you. Give feedback toda
 
 get '/' do
   message = MESSAGES[rand(MESSAGES.length)]
-  `curl -X POST -d '{"text":"#{message}"}' -H "Content-Type:application/json;charset=UTF-8" https://api.flock.co/hooks/sendMessage/5bb8d8db-0d55-436b-aeb2-c151bb4b61db`
+  `curl -X POST -d '{"text":"#{message}"}' -H "Content-Type:application/json;charset=UTF-8" https://api.flock.co/hooks/sendMessage/b30eaef8-7127-4715-b22b-30db909999fc`
 end
 
